@@ -3,10 +3,17 @@
   color: #ffffff;
   height: 30px;
   font-size: 20px;
+  display: block;
+  text-align: center;
 }
 
 .topBannerButton {
   display: flex;
+  float: right;
+  width: 30px;
+  height: 30px;
+  background-color: #5f0080;
+  border: none;
 }
 
 .close {
