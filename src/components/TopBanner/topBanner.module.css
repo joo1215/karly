@@ -1,20 +1,38 @@
-.topBannerText {
+/* 전체 해상도 만큼의 범위(보라색주기위한 친구) */
+.topBannerContainer {
   background-color: #5f0080;
+}
+
+.testTopBannerContainer {
+  background: red;
+}
+
+/* 한겹 더 감싸는데, 그 감싼친구의 width를 1050px로 주고, */
+/* 가운데정렬, 수평정렬(padding-top)등 레이아웃 속성 추가 */
+.topBanner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
   color: #ffffff;
-  height: 30px;
-  font-size: 20px;
-  display: block;
-  text-align: center;
+  width: 1050px;
+  padding: 12px 0;
+}
+
+.topBannerText {
+  /* font-weight: 100; */
 }
 
 .topBannerButton {
-  display: flex;
-  float: right;
+  position: absolute;
+  top: -2px;
+  right: 0;
   width: 30px;
   height: 30px;
-  background-color: #5f0080;
+  background-color: transparent;
   border: none;
 }
 
-.close {
-}
+/* 1. float  
+2. absolute
+2-1. absoulute는, 부모의 position :relative를 기준으로 z축으로 붕 뜸 */

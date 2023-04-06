@@ -1,0 +1,25 @@
+.loginContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 1050px;
+  padding-top: 12px;
+  margin: 0 auto;
+}
+
+.signUp {
+  font-size: 12px;
+  font-weight: 400;
+  color: #5f0080;
+}
+
+.login {
+  font-size: 12px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.customerCenter {
+  font-size: 12px;
+  font-weight: 400;
+  color: #333333;
+}

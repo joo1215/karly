@@ -1,0 +1,71 @@
+.nav {
+  width: 1050px;
+  margin: 0 auto;
+  padding: 24px 0;
+}
+
+.categoryListWrapper button {
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  color: var(--content);
+  font-weight: 600;
+  padding: 24px 4px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.navContainer {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navListWrapper {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.navList {
+  width: 500px;
+  display: flex;
+  gap: 60px;
+  padding-left: 100px;
+  font-size: 16px;
+}
+
+.navList li {
+  display: inline-block;
+}
+.navList a,
+.navList button {
+  border: none;
+  background-color: transparent;
+  color: var(--content);
+  font-weight: 600;
+  padding: 24px 4px;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.listButton {
+  background-color: transparent;
+  border: 1px solid var(--gray-300);
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--spacing-base);
+  font-size: 12px;
+  color: var(--gray-500);
+}
+
+.listButton button {
+  border: none;
+  background-color: transparent;
+  color: var(--content);
+  font-weight: 600;
+  display: inline-block;
+  cursor: pointer;
+}
